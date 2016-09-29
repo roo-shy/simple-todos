@@ -12,4 +12,7 @@
 `meteor npm install`  
 `meteor`
 
+###Run an app on IOS simulator
 
+`meteor install-sdk ios`
+`meteor add-platform ios`
