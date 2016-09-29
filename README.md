@@ -22,3 +22,6 @@
 `meteor install-sdk android`
 `meteor add-platform android`
 `meteor run android`
+
+###Running on an iPhone or iPad
+`meteor run ios-device`
