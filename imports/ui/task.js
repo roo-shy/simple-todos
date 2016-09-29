@@ -8,9 +8,9 @@ Template.task.events({
    Tasks.update(this._id, {
      $set: { checked: ! this.checked },
    });
-  },
-  'click .delete'() {
-    Tasks.remove(this._id);
-  },
+ },
+'click .delete'() {
+  Tasks.remove(this._id);
+ },
 });
 
