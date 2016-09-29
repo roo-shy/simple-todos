@@ -19,3 +19,6 @@
 `meteor run ios`
 
 ###Running it on an Android emulator
+`meteor install-sdk android`
+`meteor add-platform android`
+`meteor run android`
