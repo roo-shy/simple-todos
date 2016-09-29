@@ -6,7 +6,7 @@ import './body.html';
 
   tasks() {
 
-    return Tasks.find({});
+    return Tasks.find({}, { sort: { createdAt: -1 } });
    },
 });
 
