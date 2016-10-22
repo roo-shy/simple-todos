@@ -1,5 +1,3 @@
-# simple-todos
-
 #Installation
 
 ###Create an app
